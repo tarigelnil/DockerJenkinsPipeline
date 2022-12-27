@@ -1,8 +1,0 @@
-  FROM node:latest
-  WORKDIR usr/src/app
-  COPY Package* .jason ./
-  RUN nmp install
-  COPY . .
-  
-  EXPOSE 8000
-  CMD [ "node", "index.js" ]
