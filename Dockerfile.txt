@@ -1,6 +1,8 @@
   FROM ubuntu
-  RUN echo "Hello World" > /testfile
+  WORKDIR /tmp
+  RUN echo "Hello World" > /tmp/testfile
   COPY . .
   
   EXPOSE 3000
+  
   
