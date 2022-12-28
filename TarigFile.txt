@@ -1,8 +1,0 @@
-  FROM ubuntu
-  WORKDIR /tmp
-  RUN echo "Hello World" > /tmp/grow
-  COPY TarigImage /tmp
-  RUN nmp install
-  
-  EXPOSE 3000
-  
