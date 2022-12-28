@@ -1,6 +1,6 @@
   FROM ubuntu
   RUN echo "Hello World" > /testfile
-COPY . .
+  COPY . .
   
   EXPOSE 3000
   
