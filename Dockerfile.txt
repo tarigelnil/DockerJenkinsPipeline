@@ -1,5 +1,0 @@
-  FROM ubuntu
-  RUN echo "Hello World" > /testfile
-  
-  EXPOSE 3000
-  
